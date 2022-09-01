@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#output{
+    display:flex;
+    margin-left:25px;
+    width:124px;
+    margin-bottom:5px;
+}
+.div{
+    width:180px;
+    height:260px;
+    background-color:#90EE90;
+    padding-top:20px;
+}
+.divFlex{
+    display: flex;
+    align-item:center;
+    justify-content:center;
+    display: grid;
+    column-gap: 5px;
+    row-gap:3px;
+    grid-template-columns:  auto auto auto;
+    
+}
+.btn{
+    width:40px;
+    height:40px
+    
+}
+.equal{
+    width:40px;
+    height:40px
+    
+}
+
+.resultLED{
+    margin-left:37px;
+    margin-bottom:10px;
+    width:130px;
+    height:50px;
+    background-color: lightblue;
+}
