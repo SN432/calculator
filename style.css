@@ -1,6 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+body{
+    display:flex;
+    justify-content:center;
+    height:100%;
+    
+}
+
 #output{
     display:flex;
     margin-left:25px;
@@ -12,6 +17,7 @@
     height:260px;
     background-color:#90EE90;
     padding-top:20px;
+    margin-top: 200px;
 }
 .divFlex{
     display: flex;
